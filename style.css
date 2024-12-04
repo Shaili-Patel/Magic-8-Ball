@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(141, 24, 24);
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+h1{
+    font-size: 130px;
+    font-family: "altesse-std-24pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+h2{
+font-size: 200px;
+
+}
+
+/* Transition for h1 Starts */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* Transition for h1 Ends */
+
+#response-text{
+    font-size: 80px;
+    color: black;
+}
