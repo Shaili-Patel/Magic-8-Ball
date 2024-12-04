@@ -38,7 +38,7 @@ function shakeMagic8Ball (){
 
 console.log(eightBall);
 
-document.getElementById('response-text').innerText = `${userName} has asked the magic 8 ball ${userQuestion}. The wise and wonderous
+document.getElementById('response-texget').innerText = `${userName} has asked the magic 8 ball ${userQuestion}. The wise and wonderous
 8 ball has replied ${eightBall}`
 document.getElementById('response-img').src = responseImg;
 }
